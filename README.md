@@ -40,9 +40,6 @@ CIn = 16
 # Number of output channels
 COut = 16
 
-# Radial band-limit of filters
-D1 = 1;
-
 # Radial (longitudinal) band-limit of log-polar filters
 D1 = 1
 

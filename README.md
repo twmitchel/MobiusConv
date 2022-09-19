@@ -53,13 +53,13 @@ M = D2 + 1
 # Number of quadrature samples in representation
 Q = 30
 
-# Wheter or not to use checkpointing (trade speed for less memory overhead, useful in large networks or at high resolutions)
+# Whether or not to use checkpointing (trade speed for less memory overhead, useful in large networks or at high resolutions)
 checkpoint = False;
 
 # Initalize an MCResNetBlock
 MCRN = MCResNetBlock(CIn, COut, B, D1, D2, M, Q, checkpoint=checkpoint)
 ```
- `MobiusConv` and `MCResNetBlock` modules initalized with band-limit `B`, `CIn` input channels, and `COut` output channels, expect input features to be `torch.float` tensors of dimension `b` X `CIn` X `2B` X `2B` corresponding to `CIn`-channel features sampled on a `2B` X `2B` Driscoll-Healy spherical grid (see TS2Kit documentation) with `b` batch dimensions. Each file contains additional documentation in the form of inline comments.
+ `MobiusConv` and `MCResNetBlock` modules initalized with band-limit `B`, `CIn` input channels, and `COut` output channels, expect input features to be `torch.float` tensors of dimension `b` X `CIn` X `2B` X `2B` corresponding to `CIn`-channel features sampled on a `2B` X `2B` Driscoll-Healy spherical grid (see TS2Kit documentation) with `b` batch dimensions. Each module contains additional documentation in the form of inline comments.
 
 #### Simple equivariance demo
 An example of how to set up Möbius Convolutions and a simple equivariance demo can be found in the `demo_mobius_conv.ipynb` notebook.

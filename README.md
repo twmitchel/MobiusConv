@@ -5,6 +5,7 @@ The official PyTorch implementation of Möbius Convolution from the SIGGRAPH 202
 <img src="fig/operators.png" width="100%">
 
 ### [[Paper: Möbius Convolutions for Spherical CNNs]](https://www.mitchel.computer/papers/MobConv_2022.pdf)
+### [[Talk: SIGGRAPH 2022]](https://www.youtube.com/watch?v=qNsr-IfQtjM&t=60s)
 
 ## Dependencies
 - [PyTorch >= 1.10](https://pytorch.org)

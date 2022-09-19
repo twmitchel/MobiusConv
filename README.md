@@ -10,6 +10,7 @@ The official PyTorch implementation of Möbius Convolution from the SIGGRAPH 202
 ## Dependencies
 - [PyTorch >= 1.10](https://pytorch.org)
 - [CMake](https://cmake.org/)
+- [TS2Kit](https://github.com/twmitchel/TS2Kit) (Automatically cloned into the repo with the `--recursive-submodules` command)
 
 Our implementation relies on PyTorch's support for complex numbers and other functionalities introduced in version 1.10. The majority of this code is not compatable with earlier PyTorch versions. We also use the python packages `progressbar2` and `mpmath` which can be installed with `pip`.
 

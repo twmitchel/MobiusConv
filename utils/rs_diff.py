@@ -232,17 +232,8 @@ class rsDiff02(nn.Module):
         
         d2P =  0.5*(fAlpha2 + fBeta2)
                 
-        # Invert
-        
-        #dT, d2T, dP, d2P, dPdT = torch.split( self.ISHT(torch.cat( (dT, d2T, dP, d2P, dPdT), dim=0)).real,b, dim=0);
-        
-        dT = self.ISHT(dT).real;
-        d2T = self.ISHT(d2T).real;
-        
-        dP = self.ISHT(dP).real;
-        d2P = self.ISHT(d2P).real;
-        
-        dPdT = self.ISHT(dPdT).real;
+        # Invert  
+        dT, d2T, dP, d2P, dPdT = torch.split( self.ISHT(torch.cat( (dT, d2T, dP, d2P, dPdT), dim=0)).real,b, dim=0);
         
         d1f = (self.sD1dT * dT + self.sD1dP * dP) * self.zInvH[None, ...];
         

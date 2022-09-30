@@ -86,8 +86,7 @@ doi = {10.1145/3528233.3530724},
 booktitle = {ACM SIGGRAPH 2022 Conference Proceedings},
 articleno = {30},
 numpages = {9},
-keywords = {Neural networks, M\"{o}bius transformations, Group equivariance, Convolution, Conformal transformations},
 location = {Vancouver, BC, Canada},
 series = {SIGGRAPH '22}
 }
-``
+

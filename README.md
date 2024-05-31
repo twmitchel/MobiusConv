@@ -4,6 +4,7 @@ The official PyTorch implementation of Möbius Convolution from the SIGGRAPH 202
 
 <img src="fig/operators.png" width="100%">
 
+### [[Update 2024: Conformal SHREC `11 Dataset]](https://www.dropbox.com/scl/fi/nofmj3nfdzxm4uwhumo75/SHREC_11_CONF.zip?rlkey=3qst50619xg31bzax6jqzf3cm&st=r2qzzjbg&dl=0)
 ### [[Paper: Möbius Convolutions for Spherical CNNs]](https://www.mitchel.computer/papers/MobConv_2022.pdf)
 ### [[Talk: SIGGRAPH 2022]](https://www.youtube.com/watch?v=qNsr-IfQtjM&t=60s)
 
